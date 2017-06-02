@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="analog_background">#ffffff</color>
+    <color name="analog_watch_bg">#000000</color>
+    <color name="hour_now">#999999</color>
+    <color name="analog_hand_hour">#bbbbbb</color>
+    <color name="analog_hand_minute">#bbbbbb</color>
+    <color name="analog_hand_second">#bbbbbb</color>
+    <color name="min_paint">#999999</color>
+    <color name="mins5_paint">#bbbbbb</color>
+    <color name="city">#eeeeee</color>
+    <color name="infos">#eeeeee</color>
+    <color name="tempes">#000000</color>
+</resources>

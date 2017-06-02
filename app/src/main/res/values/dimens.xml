@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+
+
+    <dimen name="analog_round_stroke">1dp</dimen>
+    <dimen name="analog_hand_hour_stroke">2dp</dimen>
+    <dimen name="analog_hand_minute_stroke">1dp</dimen>
+    <dimen name="analog_hand_hour_len">16dp</dimen>
+    <dimen name="analog_hand_minute_len">30dp</dimen>
+    <dimen name="min_stroke">0dp</dimen>
+    <dimen name="hour_now_stroke">0dp</dimen>
+    <dimen name="mins5_stroke">1dp</dimen>
+    <dimen name="mins_len">2dp</dimen>
+    <dimen name="mins5_len">4dp</dimen>
+
+    <dimen name="cityTS">12sp</dimen>
+    <dimen name="infosTS">10sp</dimen>
+    <dimen name="tempesTS">10sp</dimen>
+    <dimen name="hourTS">10sp</dimen>
+
+    <dimen name="radius_diff">1dp</dimen>
+    <dimen name="hour_diff">20dp</dimen>
+    <dimen name="infos_diff">19dp</dimen>
+    <dimen name="quadrant_diff">38dp</dimen>
+    <dimen name="tempes_diff">50dp</dimen>
+
+    <dimen name="anim_translate_x_temp_now">40dp</dimen>
+    <dimen name="anim_collapsed_limit">40dp</dimen>
+</resources>

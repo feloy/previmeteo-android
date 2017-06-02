@@ -1,0 +1,16 @@
+Optimisations
+=============
+- Optimiser base pour indexer substr(name, 4), substr(name, 5), etc
+
+A FAIRE
+=======
+- Pas de doublons dans liste dans drawer
+- Ne pas effacer/recréer les markers mais les indexer et modifier la bitmap ?
+
+PARAMETRES
+==========
+Recevoir updates location + delay
+
+Design
+======
+Remplacer android:alpha par #??000000

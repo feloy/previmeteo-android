@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Sélectionnez un thème"
+        android:textSize="14sp"
+        android:paddingLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:paddingTop="16dp"
+        android:id="@+id/textViewTheme"
+        android:background="@android:color/transparent"
+        android:textColor="?attr/colorPrimary"
+        />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/radioGroup"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clair"
+            android:id="@+id/radioButton1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foncé"
+            android:id="@+id/radioButton2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transparent, texte clair"
+            android:id="@+id/radioButton3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transparent, texte foncé"
+            android:id="@+id/radioButton4" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Sélectionnez un lieu"
+        android:textSize="14sp"
+        android:paddingLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:paddingTop="16dp"
+        android:id="@+id/textView"
+        android:background="@android:color/transparent"
+        android:textColor="?attr/colorPrimary"
+         />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/listView"
+        android:background="@color/white"
+        android:divider="@android:color/transparent"
+        />
+
+</LinearLayout>

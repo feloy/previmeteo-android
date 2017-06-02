@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navig_at_position"
+        android:title="@string/at_position"
+        android:checkable="true"/>
+
+    <group android:id="@+id/menu_tools">
+        <item
+            android:id="@+id/navig_add_city"
+            android:icon="@drawable/ic_add_grey600_24dp"
+            android:title="@string/add_city"/>
+        <item
+            android:id="@+id/navig_map"
+            android:icon="@drawable/ic_map_grey600_24dp"
+            android:title="@string/map"/>
+    </group>
+
+    <item android:id="@+id/navig_informations"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="@string/infos"/>
+
+    <item android:id="@+id/navig_note"
+        android:icon="@drawable/ic_favorite_border_white_24dp"
+        android:title="@string/note_app"/>
+</menu>

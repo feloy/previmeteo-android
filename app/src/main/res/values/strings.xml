@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Météo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_meteo">Météo</string>
+    <string name="navigation_drawer_open">Ouvrir navigation</string>
+    <string name="navigation_drawer_close">Fermer navigation</string>
+    <string name="add_city">Ajouter un lieu…</string>
+    <string name="map">Carte</string>
+    <string name="at_position">À la position actuelle</string>
+    <string name="settings">Paramètres</string>
+    <string name="infos">Informations</string>
+    <string name="note_app">Noter cette application</string>
+    <string name="type_name_cp">Nom de ville ou Code postal</string>
+    <string name="erreur_connexion_reseau">Erreur de connexion au réseau.</string>
+    <string name="erreur_no_play_services">Vous devez installer Google Play Services pour accéder à cette fonctionnalité.</string>
+    <string name="action_del">Supprimer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_info">Informations</string>
+    <string name="title_activity_info_tabbed">Informations</string>
+    <string name="title_section1">Prévisions</string>
+    <string name="title_section2">Écran Wear</string>
+    <string name="title_activity_map">Carte</string>
+
+    <string name="taball">Tout</string>
+    <string name="tab1h">Prochaines heures</string>
+    <string name="tab6h">Cette semaine</string>
+    <string name="tab24h">2 semaines</string>
+
+    <string name="avis_interesse">Votre avis nous intéresse</string>
+    <string name="noter_application">Voulez-vous noter cette application et laisser un commentaire ?</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="plus_tard">Plus tard</string>
+
+
+    <string name="info_previsions_text">"Les informations suivantes sont affichées sur la fiche d'une commune. Sauf indication contraire, elles sont fournies par Prévimétéo (www.previmeteo.com) :
+ - température à l'heure actuelle,
+ - pictogramme indiquant la nébulosité (couverture nuageuse) et le cumul de pluie à l'heure actuelle,
+ - températures minimales et maximales de la journée,
+ - pourcentage de nébulosité à l'heure actuelle,
+ - cumul de pluies en mm à l'heure actuelle,
+ - température ressentie à l'heure actuelle,
+ - pression atmosphérique en hPa à l'heure actuelle,
+ - vitesse moyenne du vent et vitesse des rafales à l'heure actuelle,
+ - direction du vent à l'heure actuelle,
+ - degré Beaufort indiquant la vitesse moyenne du vent à l'heure actuelle,
+ - heures de lever et de coucher du soleil(1),
+ - phase de la lune(1),
+ - heures de lever et de coucher de la lune(1),
+
+(1) non fourni par Prévimétéo"</string>
+    <string name="info_picto0">"Ciel dégagé, pas de précipitation."</string>
+    <string name="info_picto1">"Ciel juste voilé par quelques nuages."</string>
+    <string name="info_picto2">"Ciel peu nuageux avec des éclaircies généreuses."</string>
+    <string name="info_picto3">"Ciel très nuageux avec de rares éclaircies mais sans précipitations."</string>
+    <string name="info_picto4">"Ciel couvert sans précipitations."</string>
+    <string name="info_picto5">"Temps faiblement pluvieux."</string>
+    <string name="info_picto6">"Quelques averses relativement faibles à craindre."</string>
+    <string name="info_picto7">"Temps pluvieux."</string>
+    <string name="info_picto8">"Averses parfois fortes à prévoir."</string>
+    <string name="info_picto9">"Temps à la neige."</string>
+    <string name="info_picto10">"Averses de pluie et de neige mêlées à craindre."</string>
+    <string name="info_picto11">"Brouillard présent et risque de visibilité réduite."</string>
+    <string name="info_picto12">"Temps orageux avec risques d'averses et de rafales de vent sous les orages."</string>
+
+    <string name="info_beaufort0_vitesse">"&lt; 1 km/h"</string>
+    <string name="info_beaufort0">"Calme"</string>
+    <string name="info_beaufort1_vitesse">"1 à 5"</string>
+    <string name="info_beaufort1">"Très légère brise"</string>
+    <string name="info_beaufort2_vitesse">"6 à 11"</string>
+    <string name="info_beaufort2">"Légère brise"</string>
+    <string name="info_beaufort3_vitesse">"12 à 19"</string>
+    <string name="info_beaufort3">"Petite brise"</string>
+    <string name="info_beaufort4_vitesse">"20 à 28"</string>
+    <string name="info_beaufort4">"Jolie brise"</string>
+    <string name="info_beaufort5_vitesse">"29 à 38"</string>
+    <string name="info_beaufort5">"Bonne brise"</string>
+    <string name="info_beaufort6_vitesse">"39 à 49"</string>
+    <string name="info_beaufort6">"Vent frais"</string>
+    <string name="info_beaufort7_vitesse">"50 à 61"</string>
+    <string name="info_beaufort7">"Grand frais"</string>
+    <string name="info_beaufort8_vitesse">"62 à 74"</string>
+    <string name="info_beaufort8">"Coup de vent"</string>
+    <string name="info_beaufort9_vitesse">"75 à 88"</string>
+    <string name="info_beaufort9">"Fort coup de vent"</string>
+    <string name="info_beaufort10_vitesse">"89 à 102"</string>
+    <string name="info_beaufort10">"Tempête"</string>
+    <string name="info_beaufort11_vitesse">"103 à 117"</string>
+    <string name="info_beaufort11">"Violente tempête"</string>
+    <string name="info_beaufort12_vitesse">"&gt; 118"</string>
+    <string name="info_beaufort12">"Ouragan"</string>
+
+    <string name="info_wear_text">"Lors de l'installation de cette application sur votre mobile ou tablette, un écran est automatiquement installé sur les montres Wear associées à votre appareil.
+
+Le transfert de l'écran vers la montre peut prendre quelques minutes, veuillez patienter.
+
+Vous pourrez alors choisir cet écran à partir de l'application "Android Wear" ou directement depuis votre montre.
+
+Lors de la première utilisation, il vous est demandé de sélectionner un lieu à partir de l'application : choisissez un lieu parmi la liste des lieux disponibles dans le menu (il n'est pour l'instant pas possible de voir sur cet écran les prévisions pour la position actuelle).</string>
+
+    <string name="open_drawer">Ouvrir menu</string>
+    <string name="close_drawer">Fermer menu</string>
+
+</resources>

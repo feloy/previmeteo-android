@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="analog_hand_hour_stroke">4dp</dimen>
+    <dimen name="analog_hand_minute_stroke">1dp</dimen>
+    <dimen name="analog_hand_second_stroke">3dp</dimen>
+    <dimen name="min_stroke">0dp</dimen>
+    <dimen name="hour_now_stroke">0dp</dimen>
+    <dimen name="mins5_stroke">1dp</dimen>
+    <dimen name="cityTS">12dp</dimen>
+    <dimen name="infosTS">10dp</dimen>
+    <dimen name="tempesTS">11dp</dimen>
+</resources>

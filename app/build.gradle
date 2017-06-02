@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "fr.elol.meteo"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 38
+        versionName "2.0 (rev 38)"
+    }
+    signingConfigs {
+        config {
+            keyAlias 'meteo'
+            keyPassword 'mypassword'
+            storeFile file('/path/to/my/key.jks')
+            storePassword 'mypassword'
+        }
+    }
+    buildTypes {
+        debug {
+        }
+        release {
+//            runProguard false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        signeddebug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            debuggable true
+            jniDebuggable true
+            renderscriptDebuggable true
+        }
+    }
+
+    productFlavors {
+        full {
+            applicationId "fr.elol.meteo"
+            buildConfigField "boolean", "HAS_GS", "true"
+        }
+        nogs {
+            applicationId "fr.elol.meteo.nogs"
+            buildConfigField "boolean", "HAS_GS", "false"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.google.android.gms:play-services-analytics:8.3.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.3.0'
+    compile 'com.google.android.gms:play-services-gcm:8.3.0'
+    compile 'com.google.android.gms:play-services-location:8.3.0'
+    compile 'com.google.android.gms:play-services-wearable:8.3.0'
+    wearApp project(':wear')
+}
